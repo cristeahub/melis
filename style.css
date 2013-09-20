@@ -12,7 +12,7 @@ body {
   font-size: 1.2em;
   line-height: 1.4em;
   color: #33332d;
-  background-color: #fff8e3; }
+  background-color: #f9f9f9; }
 
 a {
   text-decoration: none;
@@ -28,7 +28,7 @@ img {
   border-top: 1px solid #33332d; }
 
 .section-divider-title {
-  background: #fff8e3;
+  background: #f9f9f9;
   color: #33332d;
   padding: 0 15px;
   text-transform: lowercase;
@@ -59,7 +59,7 @@ img {
     padding: 5px; }
 
 .footer {
-  padding: 0em 1em 1em 1em;
+  padding: 0 1em 1em 1em;
   text-align: center; }
   .footer .social-icons a {
     padding-right: 0.4em;
