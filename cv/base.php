@@ -13,7 +13,7 @@
 <head>
 <meta charset=utf-8>
 <meta content="width=device-width, initial-scale=1.0, minimum-scale=1,0, maximum-scale=1.0" name="viewport">
-<title>Christoffer Tønnesen</title>
+<title>Christoffer Tønnessen</title>
 <link rel=stylesheet href=style.css>
 <link rel=stylesheet href=//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css>
 <link rel=stylesheet href=//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css>
