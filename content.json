@@ -1,22 +1,27 @@
 {
-    "intro": "Projects",
-    "outtro": "Contact",
+    "projects": "Projects",
+    "contact": "Contact",
+    "cv": {
+        "name": "CV",
+        "link": "http://mel.is/cv/CV.pdf",
+        "image": "assets/img/cv.png"
+    },
     "items": [
         {
             "title": "Wikipendium",
-            "image": "http://placekitten.com/g/400/180",
+            "image": "assets/img/wikipendium.png",
             "link": "http://www.wikipendium.no",
             "description": "Compendiums freely edited by everyone. The goal is to offer freely available and updated compendiums for all courses. Currently most of the compendiums are for courses offered at NTNU."
         },
         {
             "title": "TUNL-MNTN-WTER",
-            "image": "http://placekitten.com/g/400/180",
+            "image": "assets/img/tunlmntnwter.png",
             "link": "http://stianj.com/skog/",
             "description": "A THREE.js WebGL demo made for Solskogen 2013. It got the 5th place in the PC demo compo. You can read more about it on <a href='http://pouet.net/prod.php?which=61584'>Pouët.net</a>."
         },
         {
             "title": "HONEYCOMB",
-            "image": "http://placekitten.com/g/400/180",
+            "image": "assets/img/honeycomb.png",
             "link": "http://arkt.is/honeycomb",
             "description": "A THREE.js WebGL demo made for Solskogen 2012. It won the web demo compo. You can read more about it on <a href='http://pouet.net/prod.php?which=59501'>Pouët.net</a>."
         }

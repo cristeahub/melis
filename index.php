@@ -3,8 +3,9 @@
     $content_raw  = file_get_contents($file_name);
     $content_decoded = json_decode($content_raw, true);
     $items = $content_decoded['items'];
-    $intro = $content_decoded['intro'];
-    $outtro = $content_decoded['outtro'];
+    $projects = $content_decoded['projects'];
+    $contact = $content_decoded['contact'];
+    $cv = $content_decoded['cv'];
 ?>
 
 <html>
@@ -25,7 +26,32 @@
 
 <div class=section-divider>
 <div class=section-divider-title>
-<?=$intro?>
+<?=$contact?>
+</div>
+</div>
+<div class=contact>
+<div class=social-icons>
+<a href=http://facebook.com/chrisfjes class=icon-facebook></a>
+<a href=http://twitter.com/cristeatweet class=icon-twitter></a>
+<a href=http://github.com/cristeahub class=icon-github-alt></a>
+<a href=http://no.linkedin.com/in/chrislinked class=icon-linkedin></a>
+<a href=http://instagram.com/cristeagram class=icon-instagram></a>
+<a href=http://plus.google.com/100967783214171909833 class=icon-google-plus-sign></a>
+</div>
+</div>
+
+<div class=section-divider>
+<div class=section-divider-title>
+CV
+</div>
+</div>
+<div class="item center">
+<a href=<?=$cv['link']?>><img src=<?=$cv['image']?>></a>
+</div>
+
+<div class=section-divider>
+<div class=section-divider-title>
+<?=$projects?>
 </div>
 </div>
 <div class=content>
@@ -40,22 +66,6 @@
 </div>
 </div>
 <?}?>
-</div>
-
-<div class=section-divider>
-<div class=section-divider-title>
-<?=$outtro?>
-</div>
-</div>
-<div class=footer>
-<div class=social-icons>
-<a href=http://facebook.com/chrisfjes class=icon-facebook></a>
-<a href=http://twitter.com/cristeatweet class=icon-twitter></a>
-<a href=http://github.com/cristeahub class=icon-github-alt></a>
-<a href=http://no.linkedin.com/in/chrislinked class=icon-linkedin></a>
-<a href=http://instagram.com/cristeagram class=icon-instagram></a>
-<a href=http://plus.google.com/100967783214171909833 class=icon-google-plus-sign></a>
-</div>
 </div>
 
 </body>
