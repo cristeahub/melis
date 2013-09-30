@@ -25,7 +25,7 @@ export CSS_COMPILE_BODY
 
 all: style.css
 	@echo "$$ALL_COMPILE_BODY"
-	php index.php > index.html
+	php base.php > index.html
 
 # css to contain all css files if there will be more
 css: style.css
