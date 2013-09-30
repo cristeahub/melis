@@ -8,6 +8,11 @@
         "English",
         "German"
     ],
+    "contacts": {
+        "phone": "+47 913 77 500",
+        "email": "christoffer.tonnessen(att)gmail.com",
+        "github": "cristeahub"
+    },
     "items": [
         {
             "name": "Education",

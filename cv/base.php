@@ -6,6 +6,7 @@
     $image = $content_decoded['image'];
     $skills = $content_decoded['skills'];
     $languages = $content_decoded['languages'];
+    $contacts = $content_decoded['contacts'];
 ?>
 
 <html>
@@ -33,6 +34,18 @@
 <div class=other>
     <div class=imgwrapper>
         <img src=<?=$image?>>
+    </div>
+    <div class=list>
+        <h2>Contact</h2>
+        <ul>
+            <? foreach($contacts as $contact) { ?>
+                <? if(strcmp($contact, "cristeahub")==0) { ?>
+                    <li>Github: <a href=http://github.com/cristeahub><?=$contact?></a></li>
+                <?} else {?>
+                    <li><?=$contact?></li>
+                <?}?>
+            <?}?>
+        </ul>
     </div>
     <div class=list>
         <h2>Skills</h2>
