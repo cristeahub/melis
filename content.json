@@ -3,7 +3,7 @@
     "contact": "Contact",
     "cv": {
         "name": "CV",
-        "link": "http://mel.is/cv/CV.pdf",
+        "link": "http://mel.is/cv/",
         "image": "assets/img/cv.png"
     },
     "items": [
