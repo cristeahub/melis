@@ -72,7 +72,12 @@
                 {
                     "period": "2013--ongoing",
                     "title": "The office group at Abakus",
-                    "info":"Head of communication in the new ongoingce group at Abakus"
+                    "info": "Head of communication in the new ongoingce group at Abakus"
+                },
+                {
+                    "period": "2013--ongoing",
+                    "title": "Poetene – creative computer usage",
+                    "info": "Forming a student group for the creative usage of computer science. Mostly software, but also some hardware hacking"
                 },
                 {
                     "period": "2012--2013",
@@ -103,7 +108,7 @@
                 {
                     "period": "2013",
                     "title": "Runner up, Capra Coding Challenge",
-                    "info": "Prototype of cow naming app. Written in JavaScript front-end and Django back-end"
+                    "info": "A 24 hour hackathon to prototype of cow naming app for TINE SA. Written in JavaScript front-end and Django back-end"
                 },
                 {
                     "period": "2012",
