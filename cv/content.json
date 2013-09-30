@@ -1,0 +1,118 @@
+{
+    "image": "http://www.gravatar.com/avatar/954b33d4d82139100cfc716c5f2ec75e?s=150&amp;d=mm",
+    "skills": [
+        "Javascript - Node", "Python - Django", "PHP", "HTML – CSS", "Java", "C++", "iOS – Objective-C"
+    ],
+    "languages": [
+        "Norwegian",
+        "English",
+        "German"
+    ],
+    "items": [
+        {
+            "name": "Education",
+            "items": [
+                {
+                    "period": "2011--ongoing",
+                    "title": "Norges teknisk-naturvitenskapelige universitet (NTNU)",
+                    "info": "Master of Technology (Sivilingeniør), Computer Science, to be completed 2016"
+                },
+                {
+                    "period": "2007--2010",
+                    "title": "Skien Videregående Skole",
+                    "info": "Specializing in exact science (mathematics, physics and IT)"
+                }
+            ]
+        },
+        {
+            "name": "Experience",
+            "items": [
+                {
+                    "period": "Summer 2013",
+                    "title": "Developer InfoGym",
+                    "info": "Web application for gym centres, written in Node.js"
+                },
+                {
+                    "period": "Fall 2013 and fall 2012",
+                    "title": "Teaching Assistent TDT4110 Introduction to Information Technology",
+                    "info": "Gudide new students with introduction to IT with Python programming"
+                },
+                {
+                    "period": "Summer 2012",
+                    "title": "Driver at Sykehuset Telemark",
+                    "info": "Deliver supplies, blood samples and medicine to Medical Practicies in the Grenland area"
+                },
+                {
+                    "period": "Summer 2011",
+                    "title": "Salesman at TELEKOM AS",
+                    "info": "Selling cell phones for NetCom and Telenor"
+                },
+                {
+                    "period": "2007--2010",
+                    "title": "Handyman at Skien Fritidspark",
+                    "info": "Handyman and cashier"
+                }
+
+            ]
+        },
+        {
+            "name": "Volunteer Work",
+            "items": [
+                {
+                    "period": "2013--ongoing",
+                    "title": "Web developer at Studentersamfundet i Trondhjem",
+                    "info": "Developing the new samfundet.no written in Ruby on Rails",
+                    "link": "http://www.samfundet.no"
+                },
+                {
+                    "period": "2013--ongoing",
+                    "title": "The office group at Abakus",
+                    "info":"Head of communication in the new ongoingce group at Abakus"
+                },
+                {
+                    "period": "2012--2013",
+                    "title": "IT responsible at BEST Trondheim",
+                    "info":"Drifting existing and developing new systems for the organization"
+                }
+            ]
+        },
+        {
+            "name": "Projects",
+            "items": [
+                {
+                    "period": "2013",
+                    "title": "BLAST iOS application",
+                    "info": "Anonymous social network sentralized around pictures, written in Objective-C"
+                },
+                {
+                    "period": "2013",
+                    "title": "First place, BEKK RoboCup Norwegian final",
+                    "info": "Lego robot programmed to do various tasks, written in Java"
+                },
+                {
+                    "period": "2013",
+                    "title": "5th place, PC Demo Compo Solskolen",
+                    "info": "TUNL-MNTN-WTER by Ninjadev, written in JavaScript and WebGL",
+                    "link": "http://www.stianj.com/skog"
+                },
+                {
+                    "period": "2013",
+                    "title": "Runner up, Capra Coding Challenge",
+                    "info": "Prototype of cow naming app. Written in JavaScript front-end and Django back-end"
+                },
+                {
+                    "period": "2012",
+                    "title": "First Place, Web Demo Compo Solskogen",
+                    "info": "HONEYCOMB by Ninjadev, written in JavaScript and WebGL",
+                    "link": "http://arkt.is/honeycomb"
+                },
+                {
+                    "period": "2012",
+                    "title": "Wikipendium.no",
+                    "info": "Netbased compendiums like Wikipedia, developed in Django",
+                    "link": "http://www.wikipendium.no"
+                }
+            ]
+        }
+    ]
+}

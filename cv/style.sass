@@ -1,0 +1,123 @@
+$orange: #DB4105
+$lightblue: #9FB4CC
+$darkgray: #33332D
+$lightgreen: #CCC39F
+$lightgray: #F9F9F9
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+  margin: 0
+  padding: 0
+  border: 0
+  font: inherit
+    size: 100%
+  vertical:
+    align: baseline
+ 
+body
+  font:
+    family: 'Georgia', serif
+    weight: normal
+    size: 1em
+  line:
+    height: 1.2em
+  color: $darkgray
+  background: 
+    color: $lightgray
+
+.center
+  text:
+    align: center
+
+.content
+  overflow: hidden
+
+.imgwrapper
+  padding: 1em 0
+  text:
+    align: center
+
+  img
+    border-radius: 10px
+
+a
+  text:
+    decoration: none
+  color: $orange
+
+.header
+  padding: 1em
+  text:
+    align: center
+
+  h1
+    font:
+      family: 'Open sans', sans-serif
+      weight: 400
+      size: 1.2em
+
+.itemwrapper
+  overflow: hidden
+  margin: 0 1em 1em 1em
+
+  h1
+    line-height: 1em
+    font:
+      size: 1em
+      weight: bold
+    margin: 0
+
+.title
+  padding: 2em 0
+  color: $orange
+  margin: 0 0 0 5%
+  font:
+    size: 1.4em
+
+.cvpdf
+  text:
+    align: center
+  padding: 2em 0
+
+.list
+  background-color: $lightgreen
+  margin: 0 1em 1em 1em
+
+  h2
+    font:
+      size: 1.3em
+      weight: bold
+    
+    padding: 0.5em
+
+  ul
+    padding: 0 0.5em 0.5em 0.5em
+    list-style-type: none
+
+@media screen and (min-width: 640px)
+  .text
+    float: left
+    width: 65%
+
+  .title
+    margin: 0 0 0 30%
+
+  .other
+    float: left
+    width: 30%
+    padding: 0 2em 0 0
+
+@media screen and (min-width: 1000px)
+  .content
+    padding: 0 7em
+
+  .itemwrapper
+    .year
+      float: left
+      width: 20%
+      padding: 0 0.7em 0 0
+
+    .infowrapper
+      float: left
+      width: 75%%
+
+
