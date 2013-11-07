@@ -8,6 +8,12 @@
     },
     "items": [
         {
+            "title": "Cute Animals Inc",
+            "image": "assets/img/cuteanimalsinc.png",
+            "link": "http://stianj.com/bgj-06",
+            "description": "This game was made for the 48 hour gaming competition <a href=http://bacongamejam.org>Bacon Game Jam</a>. The theme for the game was rainbows. You protect the pot of gold at the end of the rainbow from monsters...sort of. It ended 3rd of 97 submissions."
+        },
+        {
             "title": "Wikipendium",
             "image": "assets/img/wikipendium.png",
             "link": "http://www.wikipendium.no",
