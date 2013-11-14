@@ -7,7 +7,7 @@
     $contact = $content_decoded['contact'];
     $cv = $content_decoded['cv'];
 ?>
-
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset=utf-8>
