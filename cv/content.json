@@ -34,8 +34,9 @@
             "items": [
                 {
                     "period": "Fall 2013--ongoing",
-                    "title": "Co-Founder and developer at <a herf="https://feat.fm">feat.fm</a>",
-                    "info": "Full stack developer at <a href="https://feat.fm">feat.fm</a>."
+                    "title": "Co-Founder and developer at feat.fm",
+                    "info": "Full stack developer",
+                    "link": "https://feat.fm"
                 },
                 {
                     "period": "Summer 2013",
