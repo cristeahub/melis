@@ -33,6 +33,11 @@
             "name": "Experience",
             "items": [
                 {
+                    "period": "Fall 2013--ongoing",
+                    "title": "Co-Founder and developer at <a herf="https://feat.fm">feat.fm</a>",
+                    "info": "Full stack developer at <a href="https://feat.fm">feat.fm</a>."
+                },
+                {
                     "period": "Summer 2013",
                     "title": "Developer InfoGym",
                     "info": "Web application for gym centres, written in Node.js"
@@ -72,7 +77,7 @@
                 {
                     "period": "2013--ongoing",
                     "title": "The office group at Abakus",
-                    "info": "Head of communication in the new ongoingce group at Abakus"
+                    "info": "Head of communication in the new group at Abakus"
                 },
                 {
                     "period": "2013--ongoing",
