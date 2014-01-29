@@ -117,6 +117,12 @@
                     "info": "A 24 hour hackathon to prototype of cow naming app for TINE SA. Written in JavaScript front-end and Django back-end"
                 },
                 {
+                    "period": "2013",
+                    "title": "Kinkdemo",
+                    "info": "Demo made for fun before BEKK RoboCup 2013. Written in javascript with THREE.js",
+                    "link": "http://kinkdemo.com"
+                },
+                {
                     "period": "2012",
                     "title": "First Place, Web Demo Compo Solskogen",
                     "info": "HONEYCOMB by Ninjadev, written in JavaScript and WebGL",

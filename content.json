@@ -26,6 +26,12 @@
             "description": "A THREE.js WebGL demo made for Solskogen 2013. It got the 5th place in the PC demo compo. You can read more about it on <a href='http://pouet.net/prod.php?which=61584'>Pouët.net</a>."
         },
         {
+            "title": "Kinkdemo",
+            "image": "assets/img/kinkdemo.png",
+            "link": "http://kinkdemo.com/",
+            "description": "A WebGL demo made for fun before the BEKK RoboCup 2013 challenge. It's written in javascript using THREE.js"
+        },
+        {
             "title": "HONEYCOMB",
             "image": "assets/img/honeycomb.png",
             "link": "http://arkt.is/honeycomb",
