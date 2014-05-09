@@ -28,7 +28,7 @@
         {
             "title": "Kinkdemo",
             "image": "assets/img/kinkdemo.png",
-            "link": "http://kinkdemo.com/",
+            "link": "http://stianj.com/kink-demo/",
             "description": "A WebGL demo made for fun before the BEKK RoboCup 2013 challenge. It's written in javascript using THREE.js"
         },
         {
