@@ -1,4 +1,4 @@
-<?
+<?php
     $file_name = 'content.json';
     $content_raw = file_get_contents($file_name);
     $content_decoded = json_decode($content_raw, true);
@@ -33,66 +33,66 @@
 
 <div class=other>
     <div class=imgwrapper>
-        <img src=<?=$image?>>
+        <img src=<?php echo $image?>>
     </div>
     <div class=list>
         <h2>Contact</h2>
         <ul>
-            <? foreach($contacts as $contact) { ?>
-                <? if(strcmp($contact, "cristeahub")==0) { ?>
-                    <li>Github: <a href=http://github.com/cristeahub><?=$contact?></a></li>
+            <?php foreach($contacts as $contact) { ?>
+                <?php if(strcmp($contact, "cristeahub")==0) { ?>
+                    <li>Github: <a href=http://github.com/cristeahub><?php echo $contact?></a></li>
                 <?} else {?>
-                    <li><?=$contact?></li>
-                <?}?>
-            <?}?>
+                    <li><?php echo $contact?></li>
+                <?php }?>
+            <?php }?>
         </ul>
     </div>
     <div class=list>
         <h2>Skills</h2>
         <ul>
-            <? foreach($skills as $skill) { ?>
-                <li><?=$skill?></li>
-            <?}?>
+            <?php foreach($skills as $skill) { ?>
+                <li><?php echo $skill?></li>
+            <?php }?>
         </ul>
     </div>
     <div class=list>
         <h2>Languages</h2>
         <ul>
-            <? foreach($languages as $language) { ?>
-                <li><?=$language?></li>
-            <?}?>
+            <?php foreach($languages as $language) { ?>
+                <li><?php echo $language?></li>
+            <?php }?>
         </ul>
     </div>
 </div>
 
 <div class=text>
 
-    <? foreach($items as $i) { ?>
+    <?php foreach($items as $i) { ?>
         <div class=title>
-            <?=$i['name']?>
+            <?php echo $i['name']?>
         </div>
 
-        <? foreach($i['items'] as $s) { ?>
+        <?php foreach($i['items'] as $s) { ?>
             <div class=itemwrapper>
                 <div class=year>
-                    <?=$s['period']?>
+                    <?php echo $s['period']?>
                 </div>
                 <div class=infowrapper>
-                    <? if(isset($s['link'])) { ?>
-                        <a href=<?=$s['link']?>>
-                    <?}?>
-                    <h1><?=$s['title']?></h1>
-                    <? if(isset($s['link'])) { ?>
+                    <?php if(isset($s['link'])) { ?>
+                        <a href=<?php echo $s['link']?>>
+                    <?php }?>
+                    <h1><?php echo $s['title']?></h1>
+                    <?php if(isset($s['link'])) { ?>
                         </a>
-                    <?}?>
+                    <?php }?>
                     <div class=info>
-                        <?=$s['info']?>
+                        <?php echo $s['info']?>
                     </div>
                 </div>
             </div>
-        <?}?>
+        <?php }?>
 
-    <?}?>
+    <?php }?>
 </div>
 </div>
 

@@ -1,4 +1,4 @@
-<?
+<?php
     $file_name = 'content.json';
     $content_raw  = file_get_contents($file_name);
     $content_decoded = json_decode($content_raw, true);
@@ -26,7 +26,7 @@
 
 <div class=section-divider>
 <div class=section-divider-title>
-<?=$contact?>
+<?php echo $contact?>
 </div>
 </div>
 <div class=contact>
@@ -46,26 +46,26 @@ CV
 </div>
 </div>
 <div class="item center">
-<a href=<?=$cv['link']?>><img src=<?=$cv['image']?>></a>
+<a href=<?php echo $cv['link']?>><img src=<?php echo $cv['image']?>></a>
 </div>
 
 <div class=section-divider>
 <div class=section-divider-title>
-<?=$projects?>
+<?php echo $projects?>
 </div>
 </div>
 <div class=content>
-<? foreach($items as $i) { ?>
+<?php foreach($items as $i) { ?>
 <div class=item>
-<a href=<?=$i['link']?>>
-<img src=<?=$i['image']?>>
-<h1><?=$i['title']?></h1>
+<a href=<?php echo $i['link']?>>
+<img src=<?php echo $i['image']?>>
+<h1><?php echo $i['title']?></h1>
 </a>
 <div class=description>
-<?=$i['description']?>
+<?php echo $i['description']?>
 </div>
 </div>
-<?}?>
+<?php }?>
 </div>
 
 </body>
