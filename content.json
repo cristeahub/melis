@@ -8,6 +8,18 @@
     },
     "items": [
         {
+            "title": "feat.fm",
+            "image": "assets/img/featfm.png",
+            "link": "http://feat.fm/",
+            "description": "feat.fm gives you live, interactive concerts to you whereever you are. Meet fans, interact and support your favorite musicians."
+        },
+        {
+            "title": "Inakuwa Oasis",
+            "image": "assets/img/inakuwaoasis.png",
+            "link": "http://arkt.is/inakuwa-oasis/",
+            "description": "A THREE.js WebGL demo made for Solskogen 2014. Won the newschool compo. First showcase of our demotool <a href='http://github.com/ninjadev/nin'>nin</a>"
+        },
+        {
             "title": "Cute Animals Inc",
             "image": "assets/img/cuteanimalsinc.png",
             "link": "http://stianj.com/bgj-06",

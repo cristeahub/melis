@@ -27,9 +27,6 @@
 <div class=content>
 
 <h1 class=center>Christoffer Tønnessen</h1>
-<div class=cvpdf>
-    <a href=http://mel.is/cv/CV.pdf>Download a summary CV</a>
-</div>
 
 <div class=other>
     <div class=imgwrapper>
