@@ -17,7 +17,7 @@
             "title": "Demolicious",
             "image": "assets/img/demolicious.png",
             "link": "https://github.com/dmpro2014/report/releases",
-            "description": "Demolicous is a general purpose SIMT inspired computer. It's made from scratch in the subject TDT4295 on NTNU, the fall 2014. It's the first of its kind in this project to utalize HDMI to display graphics on an HDMI enabled screen. The computer architecture is implemented on an FPGA. A custom PCB is made for the system as a whole."
+            "description": "Demolicous is a general purpose SIMT inspired computer. It's made from scratch in the subject TDT4295 on NTNU, the fall 2014. It's the first of its kind in this project to utilize HDMI to display graphics on an HDMI enabled screen. The computer architecture is implemented on an FPGA. A custom PCB is made for the system as a whole."
         },
         {
             "title": "Inakuwa Oasis",
