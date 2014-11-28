@@ -31,11 +31,9 @@
 </div>
 <div class=contact>
 <div class=social-icons>
-<a href=http://facebook.com/chrisfjes class=icon-facebook></a>
 <a href=http://twitter.com/cristeatweet class=icon-twitter></a>
 <a href=http://github.com/cristeahub class=icon-github-alt></a>
 <a href=http://no.linkedin.com/in/chrislinked class=icon-linkedin></a>
-<a href=http://instagram.com/cristeagram class=icon-instagram></a>
 <a href=http://plus.google.com/100967783214171909833 class=icon-google-plus-sign></a>
 </div>
 </div>
