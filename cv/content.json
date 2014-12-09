@@ -86,6 +86,11 @@
             "name": "Projects",
             "items": [
                 {
+                    "period": "2014",
+                    "title": "Runner up, NCPC NTNU",
+                    "info": "Nordic Collegiate Programming Contest at NTNU. Went on to compete at NWERC."
+                },
+                {
                     "period": "2013",
                     "title": "BLAST iOS application",
                     "info": "Anonymous social network sentralized around pictures, written in Objective-C"
