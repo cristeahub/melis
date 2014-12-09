@@ -39,6 +39,12 @@
                     "link": "https://feat.fm"
                 },
                 {
+                    "period": "Summer 2014",
+                    "title": "Summer Intern Nordic Semiconductor",
+                    "info": "Showcase application for Nordic mbed cards",
+                    "link": "http://nordicsemiconductor.github.io/puck/"
+                },
+                {
                     "period": "Summer 2013",
                     "title": "Developer InfoGym",
                     "info": "Web application for gym centres, written in Node.js"
