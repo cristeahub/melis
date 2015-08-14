@@ -14,6 +14,12 @@
             "description": "feat.fm gives you live, interactive concerts to you whereever you are. Meet fans, interact and support your favorite musicians."
         },
         {
+            "title": "Everything is Fashion",
+            "image": "assets/img/fashion.png",
+            "link": "http://www.pouet.net/prod.php?which=65978",
+            "description": "A THREE.js WebGL demo made for Solskogen 2015. Second place in the newschool demo compo. Made using our demotool <a href='http://github.com/ninjadev/nin'>nin</a>."
+        },
+        {
             "title": "Demolicious",
             "image": "assets/img/demolicious.png",
             "link": "https://github.com/dmpro2014/report/releases",
