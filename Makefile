@@ -23,16 +23,16 @@ endef
 export ALL_COMPILE_BODY
 export CSS_COMPILE_BODY
 
+.PHONY: all
 all: style.css
 	@echo "$$ALL_COMPILE_BODY"
 	php base.php > index.html
 	cd cv; make
 
 # css to contain all css files if there will be more
+.PHONY: css
 css: style.css
 	@echo "$$CSS_COMPILE_BODY"
 
 style.css: style.sass
 	sass style.sass style.css
-
-.PHONY: all css
